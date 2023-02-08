@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+* body {
+    font-family: 'IBM Plex Serif', serif;
+    color: #fff;
+}
+
+body {
+    background-image: url(./images/sky.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.contato-01, .contato-02, .contato-03 {
+    border: 2px solid rgb(146, 167, 218);
+    border-radius: 15px;
+    background-color: rgb(202, 203, 205);
+}
+
+section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    padding: 26px;
+    color: rgb(146, 167, 218);;
+}
+
+section p {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.projeto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto a {
+    color: white;
+}
